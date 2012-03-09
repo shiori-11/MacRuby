@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D42E7AF713E1B3AC00D2C21B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42E7AF613E1B3AC00D2C21B /* Cocoa.framework */; };
+		D42E7AF913E1B3AC00D2C21B /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42E7AF813E1B3AC00D2C21B /* MacRuby.framework */; };
+		D42E7B0013E1B3AC00D2C21B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D42E7AFE13E1B3AC00D2C21B /* InfoPlist.strings */; };
+		D42E7B0313E1B3AC00D2C21B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D42E7B0213E1B3AC00D2C21B /* main.m */; };
+		D42E7B0713E1B3AC00D2C21B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42E7B0513E1B3AC00D2C21B /* MainMenu.xib */; };
+		D42E7B0A13E1B3AC00D2C21B /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = D42E7B0913E1B3AC00D2C21B /* rb_main.rb */; };
+		D42E7B0C13E1B3AC00D2C21B /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = D42E7B0B13E1B3AC00D2C21B /* AppDelegate.rb */; };
+		D42E7B1E13E1B45F00D2C21B /* mainWindow.rb in Resources */ = {isa = PBXBuildFile; fileRef = D42E7B1D13E1B45F00D2C21B /* mainWindow.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D42E7AF213E1B3AC00D2C21B /* Bell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D42E7AF613E1B3AC00D2C21B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D42E7AF813E1B3AC00D2C21B /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		D42E7AFD13E1B3AC00D2C21B /* Bell-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bell-Info.plist"; sourceTree = "<group>"; };
+		D42E7AFF13E1B3AC00D2C21B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D42E7B0113E1B3AC00D2C21B /* Bell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bell-Prefix.pch"; sourceTree = "<group>"; };
+		D42E7B0213E1B3AC00D2C21B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D42E7B0613E1B3AC00D2C21B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D42E7B0913E1B3AC00D2C21B /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		D42E7B0B13E1B3AC00D2C21B /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		D42E7B1D13E1B45F00D2C21B /* mainWindow.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = mainWindow.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D42E7AEF13E1B3AC00D2C21B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42E7AF713E1B3AC00D2C21B /* Cocoa.framework in Frameworks */,
+				D42E7AF913E1B3AC00D2C21B /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D42E7AE713E1B3AB00D2C21B = {
+			isa = PBXGroup;
+			children = (
+				D42E7AFB13E1B3AC00D2C21B /* Bell */,
+				D42E7AF513E1B3AC00D2C21B /* Frameworks */,
+				D42E7AF313E1B3AC00D2C21B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D42E7AF313E1B3AC00D2C21B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D42E7AF213E1B3AC00D2C21B /* Bell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D42E7AF513E1B3AC00D2C21B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D42E7AF613E1B3AC00D2C21B /* Cocoa.framework */,
+				D42E7AF813E1B3AC00D2C21B /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D42E7AFB13E1B3AC00D2C21B /* Bell */ = {
+			isa = PBXGroup;
+			children = (
+				D42E7B0B13E1B3AC00D2C21B /* AppDelegate.rb */,
+				D42E7B0413E1B3AC00D2C21B /* Resources */,
+				D42E7B0813E1B3AC00D2C21B /* Other Sources */,
+				D42E7AFC13E1B3AC00D2C21B /* Supporting Files */,
+			);
+			path = Bell;
+			sourceTree = "<group>";
+		};
+		D42E7AFC13E1B3AC00D2C21B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D42E7AFD13E1B3AC00D2C21B /* Bell-Info.plist */,
+				D42E7AFE13E1B3AC00D2C21B /* InfoPlist.strings */,
+				D42E7B0113E1B3AC00D2C21B /* Bell-Prefix.pch */,
+				D42E7B0213E1B3AC00D2C21B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D42E7B0413E1B3AC00D2C21B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D42E7B0513E1B3AC00D2C21B /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D42E7B0813E1B3AC00D2C21B /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D42E7B0913E1B3AC00D2C21B /* rb_main.rb */,
+				D42E7B1D13E1B45F00D2C21B /* mainWindow.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		D42E7AFA13E1B3AC00D2C21B /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = D42E7B1213E1B3AC00D2C21B /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		D42E7AF113E1B3AC00D2C21B /* Bell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D42E7B0F13E1B3AC00D2C21B /* Build configuration list for PBXNativeTarget "Bell" */;
+			buildPhases = (
+				D42E7AEE13E1B3AC00D2C21B /* Sources */,
+				D42E7AEF13E1B3AC00D2C21B /* Frameworks */,
+				D42E7AF013E1B3AC00D2C21B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bell;
+			productName = Bell;
+			productReference = D42E7AF213E1B3AC00D2C21B /* Bell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D42E7AE913E1B3AC00D2C21B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "東京工科大学大学院";
+			};
+			buildConfigurationList = D42E7AEC13E1B3AC00D2C21B /* Build configuration list for PBXProject "Bell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D42E7AE713E1B3AB00D2C21B;
+			productRefGroup = D42E7AF313E1B3AC00D2C21B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D42E7AF113E1B3AC00D2C21B /* Bell */,
+				D42E7AFA13E1B3AC00D2C21B /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D42E7AF013E1B3AC00D2C21B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42E7B0013E1B3AC00D2C21B /* InfoPlist.strings in Resources */,
+				D42E7B0713E1B3AC00D2C21B /* MainMenu.xib in Resources */,
+				D42E7B0A13E1B3AC00D2C21B /* rb_main.rb in Resources */,
+				D42E7B0C13E1B3AC00D2C21B /* AppDelegate.rb in Resources */,
+				D42E7B1E13E1B45F00D2C21B /* mainWindow.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D42E7AEE13E1B3AC00D2C21B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42E7B0313E1B3AC00D2C21B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D42E7AFE13E1B3AC00D2C21B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D42E7AFF13E1B3AC00D2C21B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D42E7B0513E1B3AC00D2C21B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D42E7B0613E1B3AC00D2C21B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D42E7B0D13E1B3AC00D2C21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D42E7B0E13E1B3AC00D2C21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D42E7B1013E1B3AC00D2C21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bell/Bell-Prefix.pch";
+				INFOPLIST_FILE = "Bell/Bell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D42E7B1113E1B3AC00D2C21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bell/Bell-Prefix.pch";
+				INFOPLIST_FILE = "Bell/Bell-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D42E7B1313E1B3AC00D2C21B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D42E7B1413E1B3AC00D2C21B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D42E7AEC13E1B3AC00D2C21B /* Build configuration list for PBXProject "Bell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42E7B0D13E1B3AC00D2C21B /* Debug */,
+				D42E7B0E13E1B3AC00D2C21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D42E7B0F13E1B3AC00D2C21B /* Build configuration list for PBXNativeTarget "Bell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42E7B1013E1B3AC00D2C21B /* Debug */,
+				D42E7B1113E1B3AC00D2C21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D42E7B1213E1B3AC00D2C21B /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D42E7B1313E1B3AC00D2C21B /* Debug */,
+				D42E7B1413E1B3AC00D2C21B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D42E7AE913E1B3AC00D2C21B /* Project object */;
+}
